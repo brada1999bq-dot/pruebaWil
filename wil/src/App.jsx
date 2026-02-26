@@ -18,8 +18,8 @@ function App() {
           <div className="credit-item">
             <img src={reactLogo} className="logo react" alt="React logo" />
             <div>
-              <h2>Wilder Brada</h2>
-              <p>Desarrollador Principal</p>
+              <h2>Wilder tu papa diomedes</h2>
+              <p>Desarrollador Principal prueba de wilder </p>
             </div>
           </div>
           <div className="credit-item">
