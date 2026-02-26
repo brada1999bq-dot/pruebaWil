@@ -1,4 +1,31 @@
 #root {
+  /* Header de colores */
+  .color-header {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  .header-block {
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .header-block.red {
+    background: #e74c3c;
+  }
+  .header-block.green {
+    background: #27ae60;
+  }
+  .header-block.blue {
+    background: #2980b9;
+  }
+  .header-block.yellow {
+    background: #f1c40f;
+    color: #222;
+  }
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;

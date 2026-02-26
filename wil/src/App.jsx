@@ -8,6 +8,12 @@ function App() {
 
   return (
     <>
+      <header className="color-header">
+        <div className="header-block red">Rojo</div>
+        <div className="header-block green">Verde</div>
+        <div className="header-block blue">Azul</div>
+        <div className="header-block yellow">Amarillo</div>
+      </header>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -26,7 +32,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Click on the Vite and React logos to learn más
       </p>
     </>
   )
