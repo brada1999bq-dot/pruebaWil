@@ -9,31 +9,31 @@ function App() {
   return (
     <>
       <header className="color-header">
-        <div className="header-block red">Rojo</div>
-        <div className="header-block green">Verde</div>
-        <div className="header-block blue">Azul</div>
-        <div className="header-block yellow">Amarillo</div>
+        <div className="header-block red">Créditos</div>
+        <div className="header-block green">Proyecto Wil</div>
       </header>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Prueba Commit Wilder</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 2)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn más
-      </p>
+      <section className="credits-section">
+        <h1 className="credits-title">Página de Créditos</h1>
+        <div className="credits-list">
+          <div className="credit-item">
+            <img src={reactLogo} className="logo react" alt="React logo" />
+            <div>
+              <h2>Wilder Brada</h2>
+              <p>Desarrollador Principal</p>
+            </div>
+          </div>
+          <div className="credit-item">
+            <img src={viteLogo} className="logo" alt="Vite logo" />
+            <div>
+              <h2>Equipo Vite</h2>
+              <p>Framework Frontend</p>
+            </div>
+          </div>
+        </div>
+        <footer className="credits-footer">
+          <p>© 2026 Proyecto Wil. Todos los derechos reservados.</p>
+        </footer>
+      </section>
     </>
   )
 }
